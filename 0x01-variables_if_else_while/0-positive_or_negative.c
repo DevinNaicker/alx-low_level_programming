@@ -24,7 +24,7 @@ int main(void)
 
 	else (n==0)
 	{
-		print("%lu is zero\n", n);
+		printf("%lu is zero\n", n);
 	
 
 	return (0);
