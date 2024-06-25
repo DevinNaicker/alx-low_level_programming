@@ -14,7 +14,7 @@ int main(void)
 	
 	if (n>0)
 	{
-		print("%lu is positive\n", n);
+		printf("%lu is positive\n", n);
 	}
 
 	else if (n<0)
