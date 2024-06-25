@@ -22,7 +22,7 @@ int main(void)
 		A++;
 	}
 
-	putchar('/n');
+	putchar('\n');
 
 	return (0);
 }
