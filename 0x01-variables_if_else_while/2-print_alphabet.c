@@ -1,4 +1,4 @@
-#include<studio.h>
+#include<stdio.h>
 
 /**
  * main - code prints the alphabet in lower and higher case
