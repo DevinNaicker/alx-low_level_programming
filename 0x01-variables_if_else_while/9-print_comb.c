@@ -13,10 +13,14 @@ int main(void)
 	while (n < 10)
 	{
 		putchar(n);
-		do
+		if (n < 10)
+		{
 			putchar(',');
-			do
+			if (n < 10)
+			{
 				putchar(' ');
+			}
+		}
 		n++;
 	}
 	Return (0);
