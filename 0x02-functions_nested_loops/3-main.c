@@ -8,7 +8,13 @@
 
 int main(void)
 {
-	_islower(c);
+	int c;
+
+	c = _islower('H');
+	_putchar(c + '0');
+	c = _islower('h');
+	_putchar(c + '0');
+	_putchar('\n');
 	return (0);
 }
 
