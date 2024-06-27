@@ -6,6 +6,14 @@
  * Return: Always 0 (Success)
  */
 
+int main(void)
+{
+	print_alphabet();
+	return (0);
+}
+
+/* print_alphabet - function that prints lowercase alphabet and adds a new line */
+
 void print_alphabet(void)
 {
 	char a = 'a';
@@ -17,6 +25,4 @@ void print_alphabet(void)
 	}
 
 	_putchar('\n');
-
-	return (0);
 }
