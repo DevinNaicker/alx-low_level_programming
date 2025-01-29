@@ -4,7 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*Function prototype for learner search algorithm*/
+/*Function prototypes for search algorithms*/
 int linear_search(int *array, size_t size, int value);
+int binary_search(int *array, size_t size, int value);
 
 #endif
